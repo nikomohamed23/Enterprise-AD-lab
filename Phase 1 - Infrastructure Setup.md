@@ -26,7 +26,7 @@ This approach was chosen to simulate real-world infrastructure deployment rather
 
 The system BIOS was configured to allow booting from external installation media.
 
-![BIOS Setup](./images/phase1/bios order 03.png)
+images/phase1/03-bios-boot-order.png
 
 This step ensures the system can load the Proxmox installer from a USB device, which is a common requirement during OS deployment.
 
