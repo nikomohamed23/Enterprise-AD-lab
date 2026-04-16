@@ -26,7 +26,7 @@ This approach was chosen to simulate real-world infrastructure deployment rather
 
 The system BIOS was configured to allow booting from external installation media.
 
-(./images/phase1/03-bios-boot-order.png)
+![BIOS Setup](./images/phase1/03-bios-boot-order.png)
 
 This step ensures the system can load the Proxmox installer from a USB device, which is a common requirement during OS deployment.
 
@@ -36,7 +36,7 @@ This step ensures the system can load the Proxmox installer from a USB device, w
 
 A bootable Proxmox installation drive was created using Rufus.
 
-![Rufus Setup](./images/phase1/rufus installation02.png)
+![Rufus Setup](./images/phase1/02-rufus-usb-creation.png)
 
 This process involved flashing the Proxmox ISO image to a USB device, enabling the system to perform a bare-metal installation.
 
@@ -46,7 +46,7 @@ This process involved flashing the Proxmox ISO image to a USB device, enabling t
 
 The system was booted from the USB drive and the Proxmox installation process was initiated.
 
-![Installer Screen](./images/phase1/proxmox installingpage07.png)
+![Installer Screen](./images/phase1/07-proxmox-installing-page.png)
 
 This stage included selecting installation options and confirming system configuration before deployment.
 
@@ -56,7 +56,7 @@ This stage included selecting installation options and confirming system configu
 
 During installation, a static IP address was assigned to the Proxmox management interface.
 
-![Network Configuration](./images/phase1/proxmox networkpage06.png)
+![Network Configuration](./images/phase1/06-proxmox-network-config.png)
 
 Configuration used:
 - IP Address: 192.168.10.188/24  
@@ -72,21 +72,27 @@ This ensures consistent access to the hypervisor across the network.
 
 The installation process completed successfully, confirming that Proxmox was ready for use.
 
-![Installation Complete](./images/phase1/proxmox installingpagedone08.png)
+![Installation Complete](./images/phase1/08-proxmox-installation-complete.png)
 
 At this stage, the system provided the URL required to access the management interface.
 
 ---
 
-### 6. Web Interface Access
+### 6. Command Line Interface Access
 
+Once Proxmox VE is installed and rebooted, the console will display the login screen along with the HTTPS link to access the web interface in a browser.
+
+![CMD Page](./images/phase1/09-proxmox-cmd-page.png)
+
+
+### 7. VWeb Interface Access
 The Proxmox web interface was accessed using a browser over port 8006.
 
 ![Login Page](./images/phase1/proxmox loginpage10.png)
 
 After logging in, the dashboard was verified.
 
-![Dashboard](./images/phase1/proxmox adminpage05.png)
+![Dashboard Login](./images/phase1/10-proxmox-webui-page.png)
 
 This confirms that the hypervisor is fully operational and ready for virtual machine deployment.
 
