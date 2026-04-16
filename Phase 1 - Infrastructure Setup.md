@@ -27,6 +27,7 @@ Download Promxox VE from [(https://www.proxmox.com/en/)]()
 
 ![BIOS Setup](./images/phase1/01-proxmox-website-install.png)
 
+---
 
 ### 2. Bootable USB Creation
 
@@ -48,18 +49,23 @@ This step ensures the system can load the Proxmox installer from a USB device, w
 
 ---
 
-
 ### 4. Proxmox Installation Process
 
-The system was booted from the USB drive and the Proxmox installation process was initiated.
+Once the system is booted from the USB drive and the Proxmox installation process begins, you’ll be greeted by a welcome page with the installer displaying “Install Proxmox VE” along with several options.
 
-![Installer Screen](./images/phase1/07-proxmox-installing-page.png)
-
-This stage included selecting installation options and confirming system configuration before deployment.
+![Welcome Installer Screen](./images/phase1/04-proxmox-welcomeinstaller.png)
 
 ---
 
-### 4. Network Configuration
+### 5. Administrator Configuration
+
+In the Admin Setup, create a strong and secure password for the ‘root’ account to ensure system protection, and configure the administrator email address. Click Next >
+
+![Network Configuration](./images/phase1/05-proxmox-admin-config-installer.png)
+
+---
+
+### 6. Network Configuration
 
 During installation, a static IP address was assigned to the Proxmox management interface.
 
@@ -75,9 +81,14 @@ This ensures consistent access to the hypervisor across the network.
 
 ---
 
-### 5. Installation Completion
+### 7. Installation Process
 
-The installation process completed successfully, confirming that Proxmox was ready for use.
+Wait Until the installation Completes, the system will notify you when it’s complete.
+
+![Installation Progress](./images/phase1/07-proxmox-installing-page.png)
+
+After installation process completed successfully, confirming that Proxmox is ready for use
+>> if the auto-reboot option was selected, it will display the system’s local IP and port configuration
 
 ![Installation Complete](./images/phase1/08-proxmox-installation-complete.png)
 
@@ -85,14 +96,15 @@ At this stage, the system provided the URL required to access the management int
 
 ---
 
-### 6. Command Line Interface Access
+### 8. Command Line Interface Access
 
 Once Proxmox VE is installed and rebooted, the console will display the login screen along with the HTTPS link to access the web interface in a browser.
 
 ![CMD Page](./images/phase1/09-proxmox-cmd-page.png)
 
+---
 
-### 7. VWeb Interface Access
+### 9. Web Interface Access
 The Proxmox web interface was accessed using a browser over port 8006.
 
 ![Login Page](./images/phase1/proxmox loginpage10.png)
