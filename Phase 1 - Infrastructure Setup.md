@@ -21,16 +21,12 @@ This approach was chosen to simulate real-world infrastructure deployment rather
 ## Scope of Work
 
 ---
+### 1. Download ISO 
 
-### 1. BIOS Boot Configuration
+Download Promxox VE from [(https://www.proxmox.com/en/)]()  
 
-The system BIOS was configured to allow booting from external installation media.
+![BIOS Setup](./images/phase1/01-proxmox-website-install.png)
 
-![BIOS Setup](./images/phase1/03-bios-boot-order.png)
-
-This step ensures the system can load the Proxmox installer from a USB device, which is a common requirement during OS deployment.
-
----
 
 ### 2. Bootable USB Creation
 
@@ -42,7 +38,18 @@ This process involved flashing the Proxmox ISO image to a USB device, enabling t
 
 ---
 
-### 3. Proxmox Installation Process
+### 3. BIOS Boot Configuration
+
+The system BIOS was configured to allow booting from external installation media.
+
+![BIOS Setup](./images/phase1/03-bios-boot-order.png)
+
+This step ensures the system can load the Proxmox installer from a USB device, which is a common requirement during OS deployment.
+
+---
+
+
+### 4. Proxmox Installation Process
 
 The system was booted from the USB drive and the Proxmox installation process was initiated.
 
