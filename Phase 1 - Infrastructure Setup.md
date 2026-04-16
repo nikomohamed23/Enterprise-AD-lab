@@ -88,7 +88,7 @@ Wait Until the installation Completes, the system will notify you when it’s co
 ![Installation Progress](./images/phase1/07-proxmox-installing-page.png)
 
 After installation process completed successfully, confirming that Proxmox is ready for use
->> if the auto-reboot option was selected, it will display the system’s local IP and port configuration
+> **Note:** If the auto-reboot option was selected, it will display the system’s local IP and port configuration.
 
 ![Installation Complete](./images/phase1/08-proxmox-installation-complete.png)
 
