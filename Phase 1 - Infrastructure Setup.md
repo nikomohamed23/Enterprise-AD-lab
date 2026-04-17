@@ -72,6 +72,8 @@ During installation, a static IP address was assigned to the Proxmox management 
 ![Network Configuration](./images/phase1/06-proxmox-network-config.png)
 
 Configuration used:
+
+- Interface: vmbr0  
 - IP Address: 192.168.10.188/24  
 - Gateway: 192.168.10.1  
 - Hostname: pve.area51.local  
