@@ -34,7 +34,7 @@ The goal is to replicate real-world IT infrastructure, including Active Director
 
 Provisioned Proxmox VE on bare-metal hardware and configured initial networking.
 
-➡️ [View Details](./phase-01-infrastructure/infrastructure.md)
+➡️ [View Details](./Phase1-Infrastructure-Setup.md)
 
 ---
 
