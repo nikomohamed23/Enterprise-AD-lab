@@ -4,7 +4,7 @@
 This phase documents the initial setup of a bare-metal virtualization environment using Proxmox VE.  
 The objective was to prepare physical hardware, deploy a Type-1 hypervisor, configure management networking, and establish remote administrative access.
 
-This approach was chosen to simulate real-world infrastructure deployment rather than relying on desktop virtualization tools.---
+This approach was chosen to simulate real-world infrastructure deployment rather than relying on desktop virtualization tools.
 
 ---
 
