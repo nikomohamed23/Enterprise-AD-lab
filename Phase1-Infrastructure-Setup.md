@@ -5,7 +5,7 @@ This phase documents the initial setup of a bare-metal virtualization environmen
 The objective was to prepare physical hardware, deploy a Type-1 hypervisor, configure management networking, and establish remote administrative access.
 
 This approach was chosen to simulate real-world infrastructure deployment rather than relying on desktop virtualization tools.
-
+➡️ [Checkout Full Detailed Blog](https://medium.com/@nikoahmed/building-my-first-proxmox-home-lab-13e0d22f3999)
 ---
 
 ## Lab Environment
