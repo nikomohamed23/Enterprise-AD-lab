@@ -105,13 +105,12 @@ Once Proxmox VE is installed and rebooted, the console will display the login sc
 ---
 
 ### 9. Web Interface Access
-The Proxmox web interface was accessed using a browser over port 8006.
 
-![Login Page](./images/phase1/proxmox loginpage10.png)
+Access Proxmox web interface was accessed using a browser over port 8006. Using Admin Configurations
+![WebUI Login](./images/phase1/10-proxmox-webui-page.png)
 
 After logging in, the dashboard was verified.
-
-![Dashboard Login](./images/phase1/10-proxmox-webui-page.png)
+![WebUI Login](./images/phase1/11-proxmox-verifycompletion.png)
 
 This confirms that the hypervisor is fully operational and ready for virtual machine deployment.
 
